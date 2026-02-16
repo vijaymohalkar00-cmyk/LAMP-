@@ -1,17 +1,9 @@
-# LAMP Stack Project
+## How to Run This Project on Linux / EC2
 
-This project demonstrates how to set up and deploy a LAMP stack (Linux, Apache, MySQL, PHP).
-
-## Project Structure
-- website/ : Sample PHP website
-- sql/ : Database schema and sample data
-- docs/ : Step-by-step setup guide
-
-## Features
-- Apache web server setup
-- MySQL database setup
-- PHP website deployment
-- Documented installation steps
-
-## Use Case
-Useful for Linux Support, System Administrator, and Cloud Support roles.
+1. Install Apache, MySQL, PHP (LAMP stack)
+2. Copy `website/` files to `/var/www/html/`
+3. Create database using `sql/database.sql`
+4. Update DB credentials in `website/db.php`
+5. Open in browser:
+   - http://localhost/index.php
+   - Add user and view users
